@@ -1,0 +1,29 @@
+{
+    "ShipAgent": {
+        "checkpoints": [
+            {
+                "steps": 14626,
+                "file_path": "results\\shipdriving27\\ShipAgent\\ShipAgent-14626.onnx",
+                "reward": -21862.248635688386,
+                "creation_time": 1710474521.6851418,
+                "auxillary_file_paths": [
+                    "results\\shipdriving27\\ShipAgent\\ShipAgent-14626.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 14626,
+            "file_path": "results\\shipdriving27\\ShipAgent.onnx",
+            "reward": -21862.248635688386,
+            "creation_time": 1710474521.6851418,
+            "auxillary_file_paths": [
+                "results\\shipdriving27\\ShipAgent\\ShipAgent-14626.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}
