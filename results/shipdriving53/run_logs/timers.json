@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710797952",
+        "python_version": "3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\amit\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn --run-id=shipdriving53",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1710798007"
+    },
+    "total": 55.0342044,
+    "count": 1,
+    "self": 0.003754700000001776,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0696180999999998,
+            "count": 1,
+            "self": 0.0696180999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 54.9608316,
+            "count": 1,
+            "self": 7.699999999744023e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 54.9607425,
+                    "count": 1,
+                    "self": 54.9607425
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2099999999293232e-05,
+                    "count": 1,
+                    "self": 1.2099999999293232e-05
+                }
+            }
+        }
+    }
+}
